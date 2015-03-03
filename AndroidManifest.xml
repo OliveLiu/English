@@ -26,6 +26,23 @@
             android:name="com.english.word.WordActivity"
             android:label="@string/title_activity_word" >
         </activity>
+        <activity
+            android:name="com.english.word.WordListActivity"
+            android:label="@string/title_activity_word_list" >
+        </activity>
+        <activity
+                android:name="com.english.word.WordDetail"
+                android:label="@string/title_word_detail">
+        </activity>
+        <activity
+                android:name="com.english.search.SearchResultActivity"
+                android:label="@string/title_search">
+
+        </activity>
+        <activity android:name="com.english.search.Search_Word"/>
+        <activity android:name="com.english.recite.Recite_word"/>
+        <activity android:name="com.english.WordsBook.WordsBook"/>
+
     </application>
 
 </manifest>

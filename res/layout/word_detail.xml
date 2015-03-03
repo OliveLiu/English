@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_detail_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="vocabulary"/>
+
+    <TextView
+            android:id="@+id/tv_detail_body_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_body"
+            android:layout_marginLeft="10dp"
+            android:text="汉语翻译"/>
+
+    <TextView
+            android:id="@+id/tv_detail_liju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_body_zh"
+            android:layout_marginLeft="10dp"
+            android:text="例句"/>
+
+    <TextView
+            android:id="@+id/tv_detail_usage_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_liju"
+            android:layout_marginLeft="10dp"
+            android:text="This is a sentence."/>
+
+    <TextView
+            android:id="@+id/tv_detail_usage_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_usage_en"
+            android:layout_marginLeft="10dp"
+            android:text="例句的汉语解释。"/>
+
+
+</RelativeLayout>

@@ -26,6 +26,10 @@
             android:name="com.english.word.WordActivity"
             android:label="@string/title_activity_word" >
         </activity>
+        <activity
+            android:name="com.english.word.WordListActivity"
+            android:label="@string/title_activity_word_list" >
+        </activity>
     </application>
 
 </manifest>

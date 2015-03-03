@@ -1,6 +1,26 @@
 package com.english.entity;
 
 public class Word {
+    private int id;
+    private int word_id;
+    private String body;
+    private String body_zh;
+    private String body_en;
+    private String usage_zh;
+    private String usage_en;
+    private String rank;
+    private int creat_user_id;
+    private int modify_user_id;
+    private String creat_time;
+    private String modify_time;
+    private int book_id;
+    private int unit_number;
+    private int polyphone;
+    private String soundmark;
+    private String soundmark2;
+    private String other_body;
+    private String sound_ex;
+
 	public int getId() {
         return id;
     }
@@ -152,26 +172,6 @@ public class Word {
     public void setPolyphone(int polyphone) {
         this.polyphone = polyphone;
     }
-
-    private int id;
-    private int word_id;
-    private String body;
-    private  String body_zh;
-    private  String body_en;
-    private String usage_zh;
-    private String usage_en;
-    private String rank;
-    private int creat_user_id;
-    private int modify_user_id;
-    private String creat_time;
-    private String modify_time;
-    private int book_id;
-    private int unit_number;
-    private int polyphone;
-    private String soundmark;
-    private String soundmark2;
-    private String other_body;
-    private String sound_ex;
 
 
 
